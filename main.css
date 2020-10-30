@@ -1,0 +1,49 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+	background-color: #469dd4;
+
+  margin: 10px 15%;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+.inblock { display: inline-block; }
+
+.fixed { position: fixed; }
+
+.absolute { position: absolute; }
+
+.form {
+  width: 12%;
+  padding: 0.5%;
+}
+
+.meme-list {
+  width: 50%;
+  left: 30%;
+  padding: 0.5%;
+}
+
+.meme-div {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  margin: 0.5%;
+}
+
+.meme-text {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  background-color: black;
+  padding: 1%;
+}
+
+.meme-delbutton {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
